@@ -1,0 +1,10 @@
+name: etl-factory-sdd
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - pyspark==4.1.0
+      - delta-spark==4.2.0
